@@ -1,0 +1,95 @@
+.main-content{
+    width:100% ;
+    height: 90vh;
+    margin-top: 61px;
+}
+.room-container{
+    width: 85%;
+    background-color: #1e1f2fb5;
+    height: 80vh;
+    margin-top: 25px;
+    margin-left: 95px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+h2{
+    padding: 20px;
+    font-size: 2em;
+    color: rgb(155, 164, 164);
+    font-family: 'Arial Black', sans-serif;
+    cursor: default;
+}
+.meeting{
+    font-size: 0.5em;
+}
+h2:hover{
+    background-color: rgba(167, 95, 249, 0.55);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-0.4rem);
+}
+.card {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 133px;
+    border-radius: 40%;
+  }
+  .card:hover{
+    border: 2px solid rgba(255, 255, 255, 0.133);
+    transform: translateY(-0.2rem);
+
+  }
+  
+  .card .card-border-top {
+    width: 40%;
+    height: 3%;
+    background: #464650;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+  }
+  
+  .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  
+  .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .card .img {
+    width: 70px;
+    height: 70px;
+    background: rgba(235, 202, 235, 0.151);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid rgba(167, 95, 249, 0.41);
+  }
+  
+  .online-icon {
+    width: 17px;
+    height: 17px;
+    background-color: rgb(107, 255, 107);
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: -20px;
+    z-index: 1000;
+    border: 1px solid rgb(227, 255, 227);
+
+  }

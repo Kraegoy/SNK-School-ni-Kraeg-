@@ -1,0 +1,117 @@
+.aw-container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(-45deg, #2a2b38 70%, rgba(152, 65, 252, 0.55) 150% );
+    border-radius: 7px;
+    display: flex;
+    padding: 10px 30px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+  }
+  
+  .heading {
+    font-size: 3em;
+    font-weight: 500;
+    color: #c3c1c1;
+  }
+  
+  .para {
+    text-align: center;
+    color: #e52e71d3;
+    opacity: 0.7;
+    margin-top:-27px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .card .card-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    border: none;
+    opacity: 0;
+    scale: 0;
+    transform-origin: 0 0;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card:hover .card-btn {
+    opacity: 1;
+    scale: 1;
+  }
+  
+  .card .card-btn:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card .card-btn:active {
+    scale: 0.95;
+  }
+  
+  .overlay::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-15deg, rgba(152, 65, 252, 0.55) 10%, #2a2b38 50% );
+    transition: transform 0.5s ease;
+  }
+  
+  .card:hover .overlay::after {
+    transform: translate(-50%, -50%) scale(2);
+  }
+  
+  .holder{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 3em;
+    font-size: 3em;
+    color: rgba(38, 38, 250, 0.121);
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.382);
+
+  }

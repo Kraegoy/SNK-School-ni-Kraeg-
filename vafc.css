@@ -1,0 +1,43 @@
+.awit{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+table {
+    color: rgba(249, 245, 253, 0.836);
+    background: rgba(36, 36, 47, 0.4);
+}
+
+th, td {
+    border: 1px solid #2a2b38;
+    padding: 12px;
+    text-align: left;
+
+}
+
+th {
+    background: #2a2b38;
+    color: rgba(249, 245, 253, 0.836);
+}
+
+tr:hover {
+    background-color: rgba(149, 149, 149, 0.536);
+}
+
+.user-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.holder{
+    margin-top: -50px;
+    margin-left: -60px;
+    margin-bottom: 10px;
+    font-size: 3em;
+    font-size: 3em;
+    color: rgba(38, 38, 250, 0.121);
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.382);
+
+  }

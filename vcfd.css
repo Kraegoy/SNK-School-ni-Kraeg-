@@ -1,0 +1,60 @@
+.card {
+    width: 280px;
+    height: 150px;
+    background: rgb(17, 4, 134);
+    border-radius: 15px;
+    box-shadow: rgb(0,0,0,0.4) 5px 10px 10px ,rgba(0, 0, 0, 0.486) -5px 0px 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(30, 39, 56, 0.721), #2a2b38);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: rgb(0,0,0) 2px 5px 10px ,rgba(0, 0, 0, 0.414) -5px 0px 50px;
+  }
+  
+  .time-text {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .time-sub-text {
+    margin-top: -2em;
+    font-size: 1em;
+    margin-left: 18px;
+  }
+  
+  .day-text {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e52e71d3;
+  }
+  
+ 
+ .con{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 20px;
+ }
+.aw{
+    padding: 0;
+    margin-left: 15px;
+    margin-top: -16px;
+    margin-bottom: -24px;
+    font-weight: 100px;
+}
